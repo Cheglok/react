@@ -9,9 +9,9 @@ const Counter = () => {
     }
 
     return (
-        <div>
+        <div className={classes.btn}>
             <h1>{count}</h1>
-            <button onClick={increment} className={classes.btn}>increment</button>
+            <button onClick={increment}>increment</button>
         </div>
     );
 };

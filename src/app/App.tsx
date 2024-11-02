@@ -8,7 +8,6 @@ import {MainPage} from "pages/MainPage";
 
 const App = () => {
     const {theme, toggleTheme} = useTheme();
-    const bool = true;
 
     return (
         <div className={classNames("app", {}, [theme])}>
